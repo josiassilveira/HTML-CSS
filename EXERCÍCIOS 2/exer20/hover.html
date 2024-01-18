@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            background-color: red;
+            width: 300px;
+            color: white;
+        }
+
+        div:hover{
+            display: block;
+            color: red;
+           
+        }
+
+        p#proxima{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sovbre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <p>Fim do Exemplo</p>
+    <p id="anterior"><a href="pseudoclasse.html">Página Anterior</a></p>
+    <p id="proxima"><a href="links.html"></a>Próxima Página</p>
+</body>
+</html>
