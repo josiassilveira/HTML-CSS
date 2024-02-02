@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexendo do background</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-image: url('imagens/wallpaper006.jpg');
+        }
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(83, 83, 83);
+            text-shadow: 1px 1px 1px rgb(105, 105, 105);
+            text-align: center;
+            text-decoration: 1.2px underline;
+        }
+
+        div.quadro{
+            border: 1px solid black;
+            display: inline-block;
+            height: 150px;
+            width: 150px;
+            border-radius: 7px;
+            background-position: center center;
+            
+        }
+
+        div#amostra-1{
+            background-color: darkkhaki;
+        }
+
+        div#amostra-2{
+            background-image: linear-gradient(to bottom, blue, red);
+        }
+
+        div#amostra-3{
+            background-image: url('imagens/pattern003.png');
+        }
+
+        div#amostra-4{
+            background-image:linear-gradient(to right, rgb(32, 93, 133), rgb(9, 238, 104));
+        }
+    </style>
+</head>
+<body>
+    <h1>Testendo Bipos Diferentes de Backgrounds</h1>
+    <div class="quadro" id="amostra-1">
+
+    </div>
+    <div class="quadro" id="amostra-2">
+
+    </div>
+    <div class="quadro" id="amostra-3">
+
+    </div>
+    <div class="quadro" id="amostra-4">
+
+    </div>
+</body>
+</html>
