@@ -12,6 +12,8 @@
         table{
           margin: auto; 
           width: 500px; 
+          border-collapse: collapse;
+          position: relative;
         }
 
         caption{
@@ -26,6 +28,12 @@
             color: white;
         }
 
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
         td, th{
             border: 1px solid black;
             padding: 10px;
@@ -34,6 +42,11 @@
         td.num{
             text-align: right;
         }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
     </style>
 </head>
 <body>
@@ -44,7 +57,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="row" style="width:100px;" >População</th>
+                <th scope="col" style="width:100px;" >População</th>
             </tr>
         </thead>
 
@@ -166,5 +179,11 @@
             </tr>
         </tfoot>
     </table> 
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ullam ex nobis, at in dolor harum atque distinctio molestias nesciunt quaerat impedit, voluptatum dolore reiciendis eveniet facilis nemo quidem. Explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium placeat dignissimos minima, quaerat similique deserunt. Accusamus voluptates illum repellat minima quaerat optio mollitia neque perferendis asperiores error, delectus est nostrum!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus consequatur necessitatibus impedit, provident fugiat quos, voluptas odio mollitia natus earum corporis libero iure enim totam inventore repudiandae ut aut at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cum amet voluptate error necessitatibus quasi vitae architecto magnam, iusto nisi eos corrupti odit rerum molestiae, autem nihil nemo consequatur laudantium? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, corporis placeat aut rerum quia maxime. Est necessitatibus quisquam iste, harum corrupti non minus, perferendis repellat reiciendis natus vel, facilis distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ad placeat aperiam nemo voluptatem excepturi similique adipisci, culpa iusto nihil dignissimos in, quia consectetur iure! Mollitia illum harum eligendi id? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quas dignissimos ratione at similique natus, perspiciatis sit, quidem commodi exercitationem nostrum! Eius laboriosam consequatur corporis iure mollitia cum sit saepe.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ullam ex nobis, at in dolor harum atque distinctio molestias nesciunt quaerat impedit, voluptatum dolore reiciendis eveniet facilis nemo quidem. Explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium placeat dignissimos minima, quaerat similique deserunt. Accusamus voluptates illum repellat minima quaerat optio mollitia neque perferendis asperiores error, delectus est nostrum!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus consequatur necessitatibus impedit, provident fugiat quos, voluptas odio mollitia natus earum corporis libero iure enim totam inventore repudiandae ut aut at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cum amet voluptate error necessitatibus quasi vitae architecto magnam, iusto nisi eos corrupti odit rerum molestiae, autem nihil nemo consequatur laudantium? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, corporis placeat aut rerum quia maxime. Est necessitatibus quisquam iste, harum corrupti non minus, perferendis repellat reiciendis natus vel, facilis distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ad placeat aperiam nemo voluptatem excepturi similique adipisci, culpa iusto nihil dignissimos in, quia consectetur iure! Mollitia illum harum eligendi id? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quas dignissimos ratione at similique natus, perspiciatis sit, quidem commodi exercitationem nostrum! Eius laboriosam consequatur corporis iure mollitia cum sit saepe.</p>
 </body>
 </html>
