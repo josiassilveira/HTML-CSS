@@ -24,14 +24,34 @@
             border: 1px solid black;
             padding: 8px;
         }
+
+        col.cnome{
+            background-color: goldenrod;
+        }
+
+        col.cidade{
+            background-color: brown;
+        }
+
+        col.cprofissao{
+            background-color: burlywood;
+        }
+
     </style>
 </head>
 <body>
     <h1>Exercício de Tabelas</h1>
-
+        
     <table>
         <caption>Cadastro</caption>
         
+        <colgroup>
+            <col class="cnome" span="2">
+            
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+
         <tr>
             <th scope="col">Nome</th>
             <th scope="col">Sexo</th>
