@@ -10,15 +10,37 @@
     --font3: "Sriracha", cursive; /*Usar nos textos*/
 }
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+
 h1{
     font-family: var(--font2);
+}
+
+a.autor{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
 }
 
 p{
     font-weight: bold;
     font-size: 1.3em;
     text-decoration: none;
-    color: white;
+    
 }
 
 main{
@@ -29,8 +51,17 @@ main{
     background-color: white;
 }
 
-p.branco{
-    
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.5vh;
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 
 p.transparente{
