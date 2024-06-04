@@ -15,6 +15,12 @@
     margin: 0px;
 }
 
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font1);
+}
+
 header{
     background-color: black;
     text-align: center;
@@ -22,33 +28,30 @@ header{
     
 }
 
-h1{
+header > h1{
+    font-variant: small-caps;
     font-family: var(--font2);
+    font-size: 10vw;
+    padding-top: 50px;
+
 }
 
-a.autor{
+a{
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-header a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
-p{
-    font-weight: bold;
-    font-size: 1.3em;
-    text-decoration: none;
-    
+header > p{
+    padding-bottom: 50px;
 }
 
 main{
     font-family: var(--font3);
-    font-size: 1.5em;
-    font-weight: bold;
-    line-height: 1.2em;
-    background-color: white;
 }
 
 section{
@@ -56,16 +59,49 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--font3);
-    font-size: 3.5vh;
+    font-size: 3.5vw;
 }
 
-section > p{
+section > p{ 
     padding-bottom: 2em;
 }
 
-p.transparente{
-    color: white;
-    text-shadow: 3px;
+section.normal{
+    background-color: white;
+    color: black;
 }
+
+section.imagem{
+    color: white;
+    box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.416);
+    background-attachment: fixed ;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.445);
+
+}
+
+section#img01{
+    background-image: url('background001.jpg');
+    background-position: right top;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url('background002.jpg');
+    background-position: right top;
+    background-size: cover;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+}
+
 
