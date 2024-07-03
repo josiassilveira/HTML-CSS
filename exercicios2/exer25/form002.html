@@ -11,12 +11,12 @@
 
         <p>
             <label for="iusu">Usuário:</label>
-            <input type="text" name="usu" id="iusu" required minlength="">
+            <input type="text" name="usu" id="iusu" required minlength="6" max="8" size="15" placeholder="Coloque seu nome" autocomplete="username">
         </p>
 
         <p>
             <label for="isen">Senha:</label>
-            <input type="password" name="sen" id="isen" required>
+            <input type="password" name="sen" id="isen" required min="6" maxlength="8" size="15" placeholder="Coloque sua senha" autocomplete="current-password">
         </p>
 
         <input type="submit" value="Enviar">
