@@ -1,0 +1,1 @@
+Se quiser saer para onde os dados vão, aprenda PHP.
