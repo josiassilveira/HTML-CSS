@@ -2,3 +2,72 @@
 
 /*Demais Media Queries*/
 
+/* Typcal Device Breakpoint
+---------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media print /*IMPRESSORA*/{
+    main h1{
+        color: burlywood;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    img#phone{display: none;}
+    img#pc{display: none;}
+    img#print{display: block;}
+    img#tablet{display: none;}
+    img#tv{display: none;}
+
+    main::after{
+        text-decoration: overline;
+        content: 'Esta é a tela de impressão. Não mostra background mas algumas outras configurações são visíveis.';
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) /*TABLET*/ {
+
+    body{
+        background-image: url(../back-tablet.jpg);
+    }
+
+    img#phone{display: none;}
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tablet{display: block;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) /*DESKTOP*/{
+
+    body{
+        background-image: url(../back-pc.jpg);
+    }
+
+    img#phone{display: none;}
+    img#pc{display: block;}
+    img#print{display: none;}
+    img#tablet{display: none;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 1200px) /*TELAS GRANDES*/ {
+
+    body{
+        background-image: url(../back-tv.jpg);
+    }
+
+    main {
+        width: 600px;
+    }
+     
+    img#phone{display: none;}
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tablet{display: none;}
+    img#tv{display: block;}
+}
