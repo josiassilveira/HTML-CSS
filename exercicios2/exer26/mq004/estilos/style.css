@@ -14,7 +14,7 @@ html{
 
 body{
     background-color: black;
-    background-image: url('../back-phone.jpg');
+    background-image: url('../imagens/back-phone.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -48,5 +48,3 @@ img#pc{display: none;}
 img#print{display: none;}
 img#tablet{display: none;}
 img#tv{display: none;}
-
-
