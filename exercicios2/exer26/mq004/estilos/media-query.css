@@ -17,6 +17,10 @@ Grandes telas: acima de 1200px
         text-shadow: 2px 2px 2px black;
     }
 
+    main{
+        border: 1px solid black;
+    }
+
     img#phone{display: none;}
     img#pc{display: none;}
     img#print{display: block;}
