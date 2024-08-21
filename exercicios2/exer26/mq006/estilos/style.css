@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    background-color: grey;
+    background-color: rgb(172, 172, 172);
     text-align: center;
 }   
 
@@ -23,8 +23,24 @@ nav > ul{
     
 }
 
-nav > ul > li{
-    display: inline;
+span#burger{
+    display: block;
+    color: white;
+    background-color: rgb(59, 59, 59);
+    padding: 4px;
+}
+
+nav > ul > li > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(122, 122, 122);
+    margin: 1px;
+    padding: 3px;
+}
+
+nav > ul > li > a:hover{
+    background-color: lightgray;
 }
 
 main{
