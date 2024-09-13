@@ -33,24 +33,24 @@ Gerenciamento de repositorio!
 
 <a href= "https://josiassilveira.github.io/HTML-CSS/exercicios/ex015/index.html">Exercutar o exercício 015</a>
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/ex16/index.html">Exercutar o exercício 016</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/exer16/index.html">Exercutar o exercício 016</a>
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/ex17/index.html">Exercutar o exercício 017</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/exer17/index.html">Exercutar o exercício 017</a>
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/ex18/index.html">Exercutar o exercício 018</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/exer18/index.html">Exercutar o exercício 018</a>
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/ex19/index.html">Exercutar o exercício 019</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/exer19/index.html">Exercutar o exercício 019</a>
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/ex20/index.html">Exercutar o exercício 020</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/exer20/index.html">Exercutar o exercício 020</a>
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/ex21/index.html">Exercutar o exercício 021</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/exer21/index.html">Exercutar o exercício 021</a>
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/ex22/index.html">Exercutar o exercício 022</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/exer22/index.html">Exercutar o exercício 022</a>
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/ex23/index.html">Exercutar o exercício 023</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/exer23/index.html">Exercutar o exercício 023</a>
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/ex24/index.html">Exercutar o exercício 024</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/exer24/index.html">Exercutar o exercício 024</a>
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/ex25/index.html">Exercutar o exercício 025</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/exer25/index.html">Exercutar o exercício 025</a>
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/ex26/index.html">Exercutar o exercício 026</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios2/exer26/index.html">Exercutar o exercício 026</a>
