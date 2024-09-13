@@ -1,9 +1,9 @@
 # HTML-CSS
  Curso de HTML e CSS do Curso em Vídeo
 
-Gerenciamento de repositorio!
+Gerenciamento de repositorio! 
 
-<a href= "https://josiassilveira.github.io/HTML-CSS/exercicios/ex001/index.html">Exercutar o exercício 001</a>
+<a href= "https://josiassilveira.github.io/HTML-CSS/DESAFIOS/desafio10/android">Exercutar o exercício 001</a>
 
 <a href= "https://josiassilveira.github.io/HTML-CSS/exercicios/ex002/index.html">Exercutar o exercício 002</a>
 
